@@ -24,9 +24,8 @@ A full stack application to show battles of GOT using MERN stack.
     3. /count: get total number of battle occured
        method: GET
 ## Screenshots
- - Desktop:
+### Desktop:
       <img src="https://github.com/anirudhwalia/game-of-thrones/blob/main/desktop_ss.JPG">
- - Mobile:
-      Screen 2
+### Mobile:
       <img src="https://github.com/anirudhwalia/game-of-thrones/blob/main/mobile_ss.jpeg">
    
