@@ -28,5 +28,5 @@ A full stack application to show battles of GOT using MERN stack.
       <img src="https://github.com/anirudhwalia/game-of-thrones/blob/main/desktop_ss.JPG">
  - Mobile:
       Screen 2
-      <img src="https://github.com/anirudhwalia/game-of-thrones/blob/main/mobile_ss.JPG">
+      <img src="https://github.com/anirudhwalia/game-of-thrones/blob/main/mobile_ss.jpeg">
    
