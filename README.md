@@ -3,7 +3,7 @@ A full stack application to show battles of GOT using MERN stack.
 
 
 ### Application link:
-    URL : https://got-ani.herokuapp.com/
+    URL : [a link](https://got-ani.herokuapp.com)
 
 ## Battle API Information
 - Endpoint
