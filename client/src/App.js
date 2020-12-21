@@ -16,14 +16,14 @@ class App extends React.Component {
     isCountShowing:false
   }
   onRequestCountHandler = () =>{
-    axios.get("http://127.0.0.1:5000/api/battle/count").then((res)=>{
+    axios.get("/api/battle/count").then((res)=>{
       this.setState({count:res.data.count, isCountShowing:true})
     }).catch((err)=>{
       console.log("error is ",err)
     })
   }
   componentDidMount(){
-    axios.get("http://127.0.0.1:5000/api/battle/list").then((res)=>{
+    axios.get("/api/battle/list").then((res)=>{
       this.setState({allBattles:res.data.battles})
     }).catch((err)=>{
       console.log("error is ",err)
@@ -55,7 +55,7 @@ class App extends React.Component {
     if(this.state.type.length !== 0){
       value = value + 'type=' + this.state.type + '&';
     }
-    axios.get(`http://127.0.0.1:5000/api/battle/search${value}`).then((res)=>{
+    axios.get(`/api/battle/search${value}`).then((res)=>{
       this.setState({allBattles:res.data.battles})
     }).catch((err)=>{
       console.log("error is ",err)
