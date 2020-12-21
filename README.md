@@ -6,7 +6,6 @@ A full stack application to show battles of GOT using MERN stack.
     https://got-ani.herokuapp.com/
 
 ## Battle API Information
-- Base URL : https://game-of-throne-thompson.herokuapp.com/api/battle
 - Endpoint
     1. /list : get list of all place where battle has taken place
        method: GET
