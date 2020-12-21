@@ -3,7 +3,17 @@ A full stack application to show battles of GOT using MERN stack.
 
 
 ### Application link:
-    URL : [a link](https://got-ani.herokuapp.com)
+- URL : [https://got-ani.herokuapp.com/](https://got-ani.herokuapp.com/)
+    
+    
+### To start application in your local
+    git clone https://github.com/anirudhwalia/game-of-thrones.git
+    cd game-of-thrones
+    npn install
+    node server.js
+    cd client
+    npm build
+    npm start
 
 ## Battle API Information
 - Endpoint
