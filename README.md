@@ -9,7 +9,7 @@ A full stack application to show battles of GOT using MERN stack.
 ### To start application in your local
     git clone https://github.com/anirudhwalia/game-of-thrones.git
     cd game-of-thrones
-    npn install
+    npm install
     node server.js
     cd client
     npm build
